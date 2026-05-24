@@ -4,7 +4,7 @@ import { Shield, Mail, Lock, Eye, EyeOff, Loader2 } from "lucide-react";
 import axios from "axios";
 import RegisterPage from "./register";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://e-safeske-backend-production.up.railway.app/api";
 
 interface LoginProps {
   onLogin: (user: any, token: string) => void;

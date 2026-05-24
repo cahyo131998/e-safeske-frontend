@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Shield, Mail, Lock, User, Building, Eye, EyeOff, Loader2, ArrowLeft } from "lucide-react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://e-safeske-backend-production.up.railway.app/api";
 
 interface RegisterProps {
   onBack: () => void;

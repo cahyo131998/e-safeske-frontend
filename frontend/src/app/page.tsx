@@ -17,7 +17,7 @@ import IncidentPage from "./incidents";
 import DashboardPage from "./dashboard";
 import GenericModule from "./generic-module";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://e-safeske-backend-production.up.railway.app/api";
 
 const colors = {
   primary: "#0D4222", primaryLight: "#166534", primaryLighter: "#22803D",
